@@ -99,13 +99,14 @@ const ContactForm: React.FC = () => {
                 </div>
               </div>
             </div>
-
-            <div className="bg-gray-50 p-8 rounded-lg shadow-sm h-64">
-              {/* Map placeholder - In a real implementation, you would use Google Maps or similar */}
-              <div className="w-full h-full bg-gray-200 rounded flex items-center justify-center">
-                <p className="text-gray-500">Google Map would be embedded here</p>
-              </div>
+            
+            <div className="bg-gray-50 p-8 rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold text-gray-900 mb-6">Business Hours</h3>
+              <p className="text-gray-700">Mon - Fri: 8am - 5pm</p>
+              <p className="text-gray-700">Sat - Sun: Closed</p>
             </div>
+
+          
           </div>
 
           <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100">
