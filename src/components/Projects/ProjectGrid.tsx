@@ -31,9 +31,9 @@ const projects = [
   },
   {
     id: 5,
-    title: 'Bridge Reconstruction',
-    description: 'Supplied critical materials for a bridge reconstruction project, helping improve transportation infrastructure and community connectivity.',
-    imageUrl: 'https://images.pexels.com/photos/1419108/pexels-photo-1419108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    title: 'Bridge Construction',
+    description: 'Provided high-quality aggregates and specialized materials for a major bridge construction project, ensuring structural integrity and long-term durability.',
+    imageUrl: 'https://images.pexels.com/photos/159358/construction-site-build-construction-work-159358.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',	
     category: 'Infrastructure'
   },
   {
@@ -43,20 +43,7 @@ const projects = [
     imageUrl: 'https://images.pexels.com/photos/256395/pexels-photo-256395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     category: 'Institutional'
   },
-  {
-    id: 7,
-    title: 'Water Treatment Facility',
-    description: 'Supplied specialized materials for a municipal water treatment facility, supporting clean water access for thousands of residents.',
-    imageUrl: 'https://images.pexels.com/photos/2466312/pexels-photo-2466312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    category: 'Infrastructure'
-  },
-  {
-    id: 8,
-    title: 'Wetland Creation',
-    description: 'Transformed a former quarry site into a thriving wetland ecosystem that now serves as a habitat for native wildlife and a natural water filtration system.',
-    imageUrl: 'https://images.pexels.com/photos/158179/lake-constance-sheep-pasture-sunset-158179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    category: 'Environmental'
-  },
+
 ];
 
 const categories = ['All', 'Infrastructure', 'Residential', 'Commercial', 'Environmental', 'Institutional'];
