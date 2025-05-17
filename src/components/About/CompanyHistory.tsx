@@ -47,7 +47,7 @@ const CompanyHistory: React.FC = () => {
             </div>
             <div className="relative h-64 overflow-hidden rounded-lg shadow-md">
               <img 
-                src="https://images.pexels.com/photos/4491895/pexels-photo-4491895.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                src="https://images.pexels.com/photos/4491883/pexels-photo-4491883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
                 alt="Quarry operations" 
                 className="w-full h-full object-cover"
               />
