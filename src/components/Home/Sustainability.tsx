@@ -63,7 +63,7 @@ const Sustainability: React.FC = () => {
           </div>
           <div className="relative lg:h-[600px]">
             <img 
-              src="https://images.pexels.com/photos/4491881/pexels-photo-4491881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+              src="/img/quary person.jpg" 
               alt="Sustainable quarrying practices" 
               className="w-full h-full rounded-lg object-cover shadow-lg"
             />

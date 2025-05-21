@@ -12,7 +12,8 @@ const services = [
       'Environmental impact monitoring',
       'Dust control measures',
       'Noise reduction technology'
-    ]
+    ],
+    image: '/img/man.webp'
   },
   {
     icon: <Truck className="w-16 h-16 text-orange-600" />,
@@ -81,7 +82,7 @@ const ServiceList: React.FC = () => {
               
               <div className={`${index % 2 === 1 ? 'lg:order-1' : ''} h-96`}>
                 <img 
-                  src={`https://images.pexels.com/photos/${index === 0 ? '4491881' : index === 1 ? '2219024' : index === 2 ? '2566417' : '5969391'}/pexels-photo-${index === 0 ? '4491881' : index === 1 ? '2219024' : index === 2 ? '2566417' : '5969391'}.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2`}
+                  src={index === 0 ? service.image : `https://images.pexels.com/photos/${index === 1 ? '2219024' : index === 2 ? '2566417' : '5969391'}/pexels-photo-${index === 1 ? '2219024' : index === 2 ? '2566417' : '5969391'}.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2`}
                   alt={service.title}
                   className="w-full h-full object-cover rounded-lg shadow-lg"
                 />
