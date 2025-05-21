@@ -67,13 +67,7 @@ const Sustainability: React.FC = () => {
               alt="Sustainable quarrying practices" 
               className="w-full h-full rounded-lg object-cover shadow-lg"
             />
-            <div className="absolute -bottom-6 -left-6 lg:-left-12 w-3/4 bg-white p-6 rounded-lg shadow-lg">
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Environmental Excellence</h3>
-              <p className="text-gray-700">
-                Our land rehabilitation program has restored over 300 acres of former quarry 
-                sites into thriving ecosystems and community spaces.
-              </p>
-            </div>
+            
           </div>
         </div>
       </div>
